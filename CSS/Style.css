@@ -1,0 +1,225 @@
+.Subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-start;
+    background-color: #fc5ca4;
+    padding-left: 410px;
+}
+
+.Inscribetehoy{
+    background-color: #fc5ca4;
+    padding: 5px;
+    color: #fff;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.Pulgar{
+    width: 30px;
+    padding-right: 250px;
+}
+
+button{
+    border-color: #09d6c7;
+    border-right: #09d6c7;
+    border-bottom: #09d6c7;
+}
+
+.buttonins{
+    background-color: #09d6c7;
+    color: #fff;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+  
+}
+/*Aqui inicia seccion del navegador desplegable*/
+
+
+
+.Navegador{
+    background-color: #2c343c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+    
+}
+
+ul li{
+    list-style: none;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  #2c343c;
+}
+img{
+    width: 100px;
+    margin: 5px;
+    padding-right: 300px;
+}
+
+.Navegador li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 120px;
+    
+
+}
+
+
+.Navegador li a:hover{
+    color: #fc5ca4;
+}
+.Nav li ul{
+display: none;
+position: absolute;
+min-width: 140px;
+}
+
+.Nav li:hover > ul{
+    display: block;
+    
+}
+
+/*Aqui inicia el mai- "Desarrolla habilidades digitalesw*/
+.container2 {
+    background-image: url(../img/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 50px;
+    padding: 100px;
+    margin-top: 120px;
+}
+
+.ButtonMain{
+    width: 350px;
+    height: 70px; 
+    border-radius: 50px;
+    font-size: 26px;
+    background-color: #fc5ca4;
+    border-color: #fc5ca4;
+    border-right: #fc5ca4;
+    border-bottom: #fc5ca4;
+    margin-left: 140px;
+    margin-bottom: 100px;
+}
+
+/*Aqui comienza el conoce el Ucamp*/
+.ParrafoConoce{
+    background-color: #2c343c;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.P1{
+    font-size: 70px;
+    color: #fff;
+    
+}
+.P2{
+    font-size: 40px;
+    color: #09d6c7;
+
+}
+/*Aqui comienza el ¿Como funciona U camp?*/
+
+.Cont{
+    background-color: #f0fcfc;
+    margin: -2px;
+    padding: 10px;
+
+}
+
+h2{
+font-size: 70px;
+color: black;
+text-align: center;
+background-color: #f0fcfc;
+}
+
+h3{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: #f0fcfc;
+    
+    
+}
+
+.Galeria{
+    /*margin: 10px 20px;*/
+    float: left;
+    width: 300px;
+    margin-left: 80px;
+    background-color: #f0fcfc;
+    
+}
+
+.img img{
+    width: 250px;
+    height: 250px;
+    background-color:#f0fcfc;
+}
+
+.Piedeimg{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+    background-color: #f0fcfc;
+}
+
+.Pink{
+    color: #fc5ca4;
+    font-size: 30px;
+}
+
+/*Aqui comienzan los testimonios*/
+
+footer{
+    clear: both;
+}
+
+.Test{
+    background-color: #2c343c;
+}
+
+h5{
+    font-size: 60px;
+    color: #fc5ca4;
+    text-align: center;
+}
+h6{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.Video{
+    display: flex;
+    justify-content: center;
+}
+
+.Subparrafo{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
